@@ -1,0 +1,13 @@
+Source: ros-verystable-resource-retriever
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-ros, ros-verystable-ament-index-cpp, ros-verystable-libcurl-vendor, ros-verystable-ros-workspace
+Homepage: http://ros.org/wiki/resource_retriever
+Standards-Version: 3.9.2
+
+Package: ros-verystable-resource-retriever
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-index-cpp, ros-verystable-libcurl-vendor, ros-verystable-ros-workspace
+Description: This package retrieves data from url-format files such as http://, ftp://, package:// file://, etc., and loads the data into memory.
+ The package:// url for ros packages is translated into a local file:// url. The resourse retriever was initially designed to load mesh files into memory, but it can be used for any type of data. The resource retriever is based on the the libcurl library.
