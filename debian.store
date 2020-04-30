@@ -1,1 +1,1 @@
-{"trim": "", "base": "b9125ee", "trimbase": "", "parent": "debian/eloquent/libcurl_vendor", "previous": "ea1047b"}
+{"base": "8b24816", "parent": "debian/verystable/libcurl_vendor", "previous": "0eb021e", "trim": "", "trimbase": ""}
